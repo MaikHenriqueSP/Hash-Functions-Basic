@@ -4,7 +4,6 @@ import java.time.LocalDateTime;
 
 public class TestRoutines {
 
-    //2.1.A e 2.1.B
     public void divisionMethodCollisionsByTarget(int m, int limit, int target) {
         for (int i = 0; i <= limit; i++) {
             int result = HashFunctions.division(i, m);
@@ -14,7 +13,6 @@ public class TestRoutines {
         }
     }
     
-    //2.1.C
     public void collisionsCounter(int m, int limit) throws IOException {
         int[] counter = new int[m];
 
@@ -26,7 +24,7 @@ public class TestRoutines {
         writeCollisionsFileCounterPerKey(counter, "divisao");
         
     }
-    //2.1.A|B - multiplicação
+
     public void collisionsCounter(int m, int limit, double A) throws IOException {
         int[] counter = new int[m + 1];
 
