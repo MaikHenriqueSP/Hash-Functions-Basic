@@ -12,6 +12,5 @@ public class Main {
         testRoutines.collisionsCounter(200, 500000, 0.62);        
         testRoutines.collisionsCounter(200, 500000, 0.61803398875);
         
-        System.out.println(3 % (-15));
     }
 }
