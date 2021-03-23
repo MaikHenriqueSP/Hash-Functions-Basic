@@ -18,5 +18,5 @@ javac Main.java
 ```
 
 ```cmd
-java MyFirstJavaProgram
+java Main
 ```
